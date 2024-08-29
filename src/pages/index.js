@@ -13,7 +13,7 @@ const Index = ({ pets }) => {
       <Hours></Hours>
       {/* Create a card for each pet */}
       {pets.map((pet) => (
-        <div key={pet._id}>
+        <div key={pet._id}> 
           <div className="card"> 
             <img src={pet.image_url} />
             <h5 className="pet-name">{pet.name}</h5>

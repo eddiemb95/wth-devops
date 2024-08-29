@@ -14,7 +14,7 @@ const Index = ({ pets }) => {
       {/* Create a card for each pet */}
       {pets.map((pet) => (
         <div key={pet._id}>
-          <div className="card">
+          <div className="card"> 
             <img src={pet.image_url} />
             <h5 className="pet-name">{pet.name}</h5>
             <div className="main-content">
